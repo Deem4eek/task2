@@ -1,12 +1,14 @@
 *{
-	margin: auto;
+	margin:0;
 	padding: 0;
+	box-sizing: border-box;
 }
 .blockUp{
-	width: 1600px;
 	height: 75px;
 	background-color: #222222;
 	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 .menuLeft{
 	margin-left: 230px;
@@ -21,7 +23,7 @@
 	height: 27px;
 }
 .menuRight{
-	    margin-right: 230px;
+	margin-right: 230px;
 }
 .UpRight{
 	width: 32px;
@@ -39,22 +41,74 @@
 }
 .content{
 	display: flex;
-	width: 1600px;
 	height: 765px;
+}
+.UpContentLeft{
+	width: 50%;
+	background: rgba(113, 103, 105, 0.08);
 }
 .Up_im{
-	width: 800px;
-}
-.UpContentRight{
-	background: #F1E4E6;
-	width: 800px;
+	
 	height: 765px;
 }
+.UpContentRight{
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	width: 50%;
+	background: #F1E4E6;
+}
+.UpTextContent {
+    height: 93px;
+}
 .UpText{
-font-family: Lato, sans-serif;
+font-family: Lato;
 font-style: normal;
 font-weight: 900;
 font-size: 48px;
 line-height: 58px;
 color: #222222;
+}
+.center{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+.center__Big{
+	padding-top: 30px;
+	padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+.contentMenu{
+	height: 1395px;
+	text-align: center;
+	padding-top: 97px;
+}
+/*.ContentMenuText{
+	display: inline-block;
+
+}*/
+.contentMenuImag{
+	flex-wrap: wrap;
+	display: flex;
+	padding-left: calc(50% - 570px);
+}
+.CmI{
+
+}
+.contentMenuItem{
+	padding-right: 30px;
+	padding-top: 57px;
+}
+.knopka{
+	padding-top: 48px;
+}
+.BottomInd{
+	border: 1px solid #FF6A6A;
+	width: 211px;
+	height: 47px;
+	background: none;
+	
 }
