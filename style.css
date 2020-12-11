@@ -41,27 +41,21 @@
 }
 .content{
 	display: flex;
-<<<<<<< Updated upstream
 	height: 765px;
-=======
 	/*height: 765px;*/
 	padding-left: calc(50% - 800px);
     padding-right: calc(50% - 800px);
->>>>>>> Stashed changes
+
 }
 .UpContentLeft{
 	width: 50%;
 	background: rgba(113, 103, 105, 0.08);
 }
-<<<<<<< Updated upstream
-.Up_im{
-	
-	height: 765px;
-=======
+
 .Up_im{	
+	height: 765px;
 	/*height: 765px;*/
 	width: 100%;
->>>>>>> Stashed changes
 }
 .UpContentRight{
 	display: flex;
@@ -102,7 +96,6 @@ color: #222222;
 	display: inline-block;
 
 }*/
-<<<<<<< Updated upstream
 .contentMenuImag{
 	flex-wrap: wrap;
 	display: flex;
@@ -123,8 +116,7 @@ color: #222222;
 	width: 211px;
 	height: 47px;
 	background: none;
-	
-=======
+}
 .contentMenuCenter{
 	padding-left: calc(50% - 570px);
     padding-right: calc(50% - 570px);
@@ -213,5 +205,4 @@ color: #222222;
 }
 .footerEnd{
 	min-height: 79px;
->>>>>>> Stashed changes
 }
